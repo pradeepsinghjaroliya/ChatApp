@@ -1,0 +1,24 @@
+.sidebar_chat{
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 20px;
+    border-bottom: solid 1px silver ;
+}
+.sidebar_chat:hover{
+    background-color: silver;
+}
+.sidebar_chat_avatar{
+    margin: 0px 5px 0px 0px;
+}
+.sidebar_chat_info{
+    margin-left: 5px;
+    position: relative;
+    width: 100%;
+}
+.sidebar_chat_info > small {
+    position: absolute;
+    top: 5px;
+    right: 1px;
+}
